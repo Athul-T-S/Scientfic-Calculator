@@ -1,8 +1,8 @@
-'''print("----SCIENTIFIC CALCULATOR----")
-print("1.Addition\n2.Subtraction\n3.Multiplication\n4.Division\n5.Modulus\n6.Square root\n7.Exponential\n8.Sine\n9.Cosine\n10.Tangent\n11.Radian to Degree\n12.Degree to Radian")
+print("----SCIENTIFIC CALCULATOR----")
+print("1.Addition\n2.Subtraction\n3.Multiplication\n4.Division\n5.Modulus\n6.Square root\n7.Exponential\n8.Sine\n9.Cosine\n10.Tangent\n11.Radian to Degree\n12.Degree to Radian\n13.Exit")
 import math
 ch="y"
-while ch=="y":
+while ch!="13":
     a = int(input("Choose your option:"))
     if a==1:
         print("Addition")
@@ -60,7 +60,6 @@ while ch=="y":
         print("Degree to Radian")
         a1 = float(input("Enter your Number:"))
         print("Answer=",math.degrees(a1))
-    ch = input("Do you need to continue?(y/n)")'''
 
 
 
